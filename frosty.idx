@@ -1,0 +1,13 @@
+frostyDebug	frosty.html#frostyDebug	frosty: frostyDebug	
+frostySorted	frosty.html#frostySorted	frosty: frostySorted	
+frostyNet	frosty.html#frostyNet	frosty: frostyNet	
+FreezeError	frosty.html#FreezeError	frosty: FreezeError	
+ThawError	frosty.html#ThawError	frosty: ThawError	
+freeze	frosty.html#freeze,T,Stream	frosty: freeze[T](o: T; stream: Stream)	
+freeze	frosty.html#freeze,T,string	frosty: freeze[T](o: T; str: var string)	
+freeze	frosty.html#freeze,T	frosty: freeze[T](o: T): string	
+thaw	frosty.html#thaw,Stream,T	frosty: thaw[T](stream: Stream; o: var T)	
+thaw	frosty.html#thaw,string,T	frosty: thaw[T](str: string; o: var T)	
+thaw	frosty.html#thaw,string	frosty: thaw[T](str: string): T	
+freeze	frosty.html#freeze,T,Socket	frosty: freeze[T](o: T; socket: Socket)	
+thaw	frosty.html#thaw,Socket,T	frosty: thaw[T](socket: Socket; o: var T)	
